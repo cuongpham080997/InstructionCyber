@@ -639,9 +639,24 @@ footer {
 }
 
 @media screen and (max-width:575.98px) {
+
+    /* GLOBAL */
+    .heading p{
+        padding: 0 15px;
+    }
+    
+    /* HEADER */
     .header__left a {
         display: block;
     }
+
+    /* FOOTER */
+    .footer__form .row button,.footer__form .row input{
+        padding: 10px;
+        border: 0;
+        font-size: 14px;
+    }
+
 }
 
 

@@ -393,10 +393,14 @@
         </div>
         <div class="news__content container">
             <div class="row">
-                <div class="col-5">
+                <div class=" col-12 col-md-6 col-lg-5">
                     <img class="img-fluid" src="./img/g7.jpg" alt="">
                 </div>
-                <div class="col-7">
+                <!-- mt-3 mt-md-0
+                    if min-width:768px => margin-top:0 
+                768px => margin-top:1rem -->
+
+                <div class=" col-12 col-md-6 col-lg-7 mt-3 mt-md-0 ">
                     <h3><a href="#" data-bs-toggle="modal" data-bs-target="#cyberModal">SIT AMET JUSTO VITAE</a></h3>
                     <h4>03/01/2021</h4>
                     <p>Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus,
@@ -405,7 +409,7 @@
                         Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.</p>
                 </div>
 
-                <div class="col-7">
+                <div class="col-12 col-md-6 col-lg-7">
                     <h3><a href="#" data-bs-toggle="modal" data-bs-target="#cyberModal">FUSCE SCELERISQUE</a></h3>
                     <h4>03/01/2021</h4>
                     <p>Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus,
@@ -413,7 +417,7 @@
                         purus, facilisis non cursus ut, egestas sed ipsum.Fusce ullamcorper aliquet dolor id egestas.
                         Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.</p>
                 </div>
-                <div class="col-5">
+                <div class="col-12 col-md-6 col-lg-5">
                     <img class="img-fluid" src="./img/g10.jpg" alt="">
                 </div>
 
@@ -425,12 +429,12 @@
     <footer>
         <div class="footer__top container section">
             <div class="footer__grid row">
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <h3>About Us</h3>
                     <p>Nam libero tempore cum vulputate id est id, pretium semper enim. Morbi viverra congue nisi vel
                         pulvinar posuere sapien eros.</p>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <h3>Latest News</h3>
                     <div class="footer__link">
                         <i class="fa fa-long-arrow-alt-right"></i>
@@ -453,7 +457,7 @@
                         <a href="#">Lorem ipsum neque vulputate</a>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <h3>Contact Info</h3>
                     <div class="footer__contact">
                         <i class="fa fa-map-marker-alt"></i>
@@ -470,14 +474,14 @@
                 </div>
             </div>
             <div class="footer__form">
-                <form class="row g-3">
-                    <div class="col-4 col-form-label">
+                <form class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-form-label">
                         <label for="emailFooter">Sign up for our Newsletter</label>
                     </div>
-                    <div class="col-6">
+                    <div class="col-8 col-sm-8 col-md-8 col-lg-6 col-xl-6">
                         <input type="email" class="form-control" id="emailFooter" placeholder="Enter Email Address ...">
                     </div>
-                    <div class="col-2 text-center">
+                    <div class="col-4 col-sm-4 col-md-4 col-lg-2 col-xl-2 text-center">
                         <button type="submit" class="btn">SUBMIT</button>
                     </div>
                 </form>
